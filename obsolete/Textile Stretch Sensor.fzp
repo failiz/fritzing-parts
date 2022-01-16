@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <module fritzingVersion="0.1.1201" moduleId="fa46ea3312d60697b8e907a5c75db23d_2" referenceFile="thermistor_300mil.fzp">
- <version>4</version>
+ <version replacedby="textile_strech_sensor_005_qcootz4">4</version>
  <author>Riccardo Marchesi</author>
  <title>Textile Stretch Sensor</title>
  <label>R</label>
@@ -12,7 +12,7 @@
   <tag>Textile</tag>
  </tags>
  <properties>
-  <property name="family">Textile Sensor</property>
+  <property name="family">//obsolete//Textile Sensor</property>
   <property name="type">Tubular Stretch</property>
   <property name="part number">PW052</property>
  </properties>

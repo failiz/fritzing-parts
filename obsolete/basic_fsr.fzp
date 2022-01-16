@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><module fritzingVersion="0.1.1201" moduleId="1000ABDD10011">
- <version>4</version>
+ <version replacedby="force_sensor_resistor_circular_05in_005_icb7s6u">4</version>
  <title>Basic Force Sensing Resistor (FSR)</title>
  <label>J</label>
  <date>2008-09-25</date>

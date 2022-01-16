@@ -1,9 +1,9 @@
-<?xml version="1.0" encoding="UTF-8"?><module moduleId="3234DBDC00PotentiometerModuleID" fritzingVersion="0.12.34">
- <version>4</version>
- <author>Stefan Hermann</author>
+<?xml version="1.0" encoding="UTF-8"?><module moduleId="4244TPM6MMPotentiometerModuleID" fritzingVersion="0.12.34">
+ <version replacedby="potentiometer_trimmer_6mm_005_8ew08r3_PotentiometerModuleID">4</version>
+ <author>Brendan Howell</author>
  <title>Trimmer Potentiometer</title>
  <label>R</label>
- <date>2008-10-10</date>
+ <date>2009-05-20</date>
  <tags>
   <tag>potentiometer</tag>
   <tag>poti</tag>
@@ -12,17 +12,17 @@
   <tag>fritzing core</tag>
  </tags>
  <properties>
-   <property name="family">Potentiometer</property>
+   <property name="family">//obsolete//Potentiometer</property>
    <property name="type">Trimmer Potentiometer</property>
    <property name="maximum resistance" showInLabel="yes">10k&#937;</property>
    <property name="knob status">50%</property>
    <property name="Track">Linear</property>
-      <property name="power">0.5W</property>
-   <property name="Size">Trimmer - 12mm</property>
+   <property name="power">0.5W</property>
+   <property name="Size">Trimmer - 6mm</property>
    <property name="package">THT</property>
  </properties>
  <taxonomy>discreteParts.resistors.adjustable.potentiometer</taxonomy>
- <description>A standard adjustable resistor (potentiometer).</description>
+ <description>A standard 6mm trimmer potentiometer.</description>
  <spice>
   <line>R{instanceTitle}A {net connector0} {net connector1} {{knob status}/100*{maximum resistance}}</line>
   <line>R{instanceTitle}B {net connector2} {net connector1} {{maximum resistance}-{knob status}/100*{maximum resistance}}</line>
@@ -44,7 +44,7 @@
    </layers>
   </schematicView>
   <pcbView>
-   <layers image="pcb/trimpot.svg">
+   <layers image="pcb/trimpot_meggitt_pih.svg">
     <layer layerId="silkscreen"/>
     <layer layerId="copper0"/>
    <layer layerId="copper1"/></layers>

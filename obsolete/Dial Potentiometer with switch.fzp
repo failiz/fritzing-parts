@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module fritzingVersion="0.5.2b.02.18.4756" moduleId="297c7ab01279c7b7f5c4ca77ec94554c">
-    <version>4</version>
+    <version replacedby="potentiometer_dial_switch_005_f3wriih_PotentiometerModuleID">4</version>
     <author>Dirk van Oosterbosch</author>
     <title>Dial Potentiometer with switch</title>
     <label>R</label>
@@ -16,7 +16,7 @@
     </tags>
     <properties>
         <property name="size">Dial - 25mm</property>
-        <property name="family">Potentiometer</property>
+        <property name="family">//obsolete//Potentiometer</property>
         <property name="track">Logarithmic</property>
         <property name="type">Thumb Wheel Potentiometer with switch</property>
 		<property name="power">0.5W</property>
