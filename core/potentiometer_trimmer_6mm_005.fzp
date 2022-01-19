@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<module fritzingVersion="0.12.34" moduleId="potentiometer_trimmer_6mm_005_8ew08r3_PotentiometerModuleID">
+<module fritzingVersion="0.9.9" moduleId="potentiometer_trimmer_6mm_005_8ew08r3_PotentiometerModuleID">
   <version>5</version>
-  <author>Brendan Howell (modified by A. Faina)</author>
-  <title>Trimmer Potentiometer (Small)</title>
+  <author>Brendan Howell (modified by A. Faina and vanepp)</author>
+  <title>6mm Trimmer Potentiometer</title>
   <label>R</label>
   <date>2022-01-16</date>
   <tags>
@@ -29,12 +29,12 @@
   </spice>
   <views>
     <iconView>
-      <layers image="icon/basic_poti_icon.svg">
+      <layers image="breadboard/potentiometer_trimmer_6mm_0fxicdr_breadboard.svg">
         <layer layerId="icon"/>
       </layers>
     </iconView>
     <breadboardView>
-      <layers image="breadboard/potentiometer_trimmer.svg">
+      <layers image="breadboard/potentiometer_trimmer_6mm_0fxicdr_breadboard.svg">
         <layer layerId="breadboard"/>
       </layers>
     </breadboardView>
@@ -44,7 +44,7 @@
       </layers>
     </schematicView>
     <pcbView>
-      <layers image="pcb/trimpot_meggitt_pih.svg">
+      <layers image="pcb/potentiometer_trimmer_6mm_wcu7npf_pcb.svg">
         <layer layerId="silkscreen"/>
         <layer layerId="copper0"/>
         <layer layerId="copper1"/>
@@ -98,4 +98,5 @@
       </views>
     </connector>
   </connectors>
+  <url>https://www.piher.net/pdf/11-PT6v03.pdf</url>
 </module>
